@@ -1,4 +1,3 @@
-# WHMCS Login Email
-That is WHMCS hooks. after user has login, this hooks will send " login email " prompt.
+# WHMCS User Login Notify Email [HOOK]
 
-详细的教程可以查阅我的博客：https://www.zntec.cn/archives/whmcs-login-email.html
+When a user login from clientarea login page (instead of login as a user from administrator panel), send the user a notification email.
