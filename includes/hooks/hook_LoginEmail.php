@@ -24,7 +24,7 @@ add_hook('ClientLogin', 1, function ($vars){
 		    $result="Got error when trying to get adminusername {$e->getMessage()}";
 		    $pdo->rollBack();
 		}
-    if(!isset($adminusername['username']))
+    if(empty($adminusername['username']))
     {
         die("Failed. No username in database detected.");
     }
