@@ -9,7 +9,7 @@ use Illuminate\Database\Capsule\Manager as Capsule;
 
 //Security Check
 if(!defined("WHMCS")){
-    die("This file cannot be accessed directly");
+    die("Unauthorized access.");
 }
 
 add_hook('ClientLogin', 1, function ($vars){
