@@ -12,6 +12,7 @@ if(!defined("WHMCS")){
     die("Unauthorized access.");
 }
 
+//add_hook('ClientAreaHomepage', 1, function ($vars) -- Debug Mode
 add_hook('ClientLogin', 1, function ($vars){
     $pdo = Capsule::connection()->getPdo();
 		$pdo->beginTransaction();
