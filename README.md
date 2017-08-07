@@ -4,4 +4,4 @@ When a user login from clientarea login page (instead of login as a user from ad
 
 Usage Document
 ------------------
-Create a custom email template before you load this hook in your WHMCS. And edit `$values["messagename"] = "Login Prompt";` to match your template name.
+Create a custom email template before you load this hook in your WHMCS. And edit `$values["messagename"] = "Login Prompt";` in line 35 to match your template name.
